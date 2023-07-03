@@ -1,6 +1,21 @@
 import styled from '@emotion/styled';
 
+export const StatisticsCard = styled.section`
+  display: inline-block;
 
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color: ${props => props.theme.colors.white};
+  border-radius: 4px;
+
+  padding-top: ${props => {
+    if(props.cardTitle) {
+      return '30px';
+    } else {return 'none';
+  }
+    }};
+`;
 
 export const StatisticTitle = styled.h2`
   margin-bottom: 30px;
@@ -14,32 +29,8 @@ export const StatisticTitle = styled.h2`
   text-align: center;
 `;
 
-
-export const StatisticsCard = styled.section`
-  display: inline-block;
-
-  margin-right: auto;
-  margin-left: auto;
-
-  background-color: ${props => props.theme.colors.white};
-
-  padding-top: ${props => {
-    console.log(props.cardTitle);
-    if(props.cardTitle) {
-      return '30px';
-    } else {return 'none';
-  }
-    }};
-
-
-`;
-
-
-
 export const StatisticsList = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
-
-  outline: solid 2px tomato;
 `;

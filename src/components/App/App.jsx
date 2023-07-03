@@ -29,7 +29,7 @@ export const App = () => {
         <Heading marginTop="50px" marginBottom="50px" textAlign="center">
           Task 2 - Statistics Section
         </Heading>
-          <Statistics title="upload stats" stats={data} />;
+          <Statistics title="upload stats" stats={data} />
         <Heading marginTop="50px" marginBottom="50px" textAlign="center">
           Task 3 - Friends list
         </Heading>

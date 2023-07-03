@@ -60,7 +60,7 @@ export const LocationText = styled.p`
 export const StatsList = styled.ul`
   display: flex;
 
-  border-top: 1px solid #e4e9f0;
+  border-top: 1px solid ${props => props.theme.colors.gray};
 `;
 
 export const StatsItem = styled.li`
@@ -69,10 +69,10 @@ export const StatsItem = styled.li`
   padding-top: 18px;
   padding-bottom: 20px;
   width: 100%;
-  background-color: #f3f6f9;
+  background-color: #d0ddc9;
 
   &:not(:last-child) {
-    border-right: 1px solid #e4e9f0;
+    border-right: 1px solid ${props => props.theme.colors.gray};
   }
 `;
 
