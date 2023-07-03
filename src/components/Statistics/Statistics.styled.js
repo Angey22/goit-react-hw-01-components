@@ -8,6 +8,7 @@ export const StatisticsCard = styled.section`
 
   background-color: ${props => props.theme.colors.white};
   border-radius: 4px;
+  box-shadow: ${props => props.theme.shadows.regular};
 
   padding-top: ${props => {
     if(props.cardTitle) {
