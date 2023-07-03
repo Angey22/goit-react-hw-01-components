@@ -4,12 +4,13 @@ import {
   Heading,
   Profile,
   Statistics,
+  FriendList,
 } from 'components';
 
 // Importing data from JSON files
 import user from '../../data/user.json';
 import data from '../../data/data.json';
-// import friends from '../../data/friends.json';
+import friends from '../../data/friends.json';
 // import transactions from '../../data/transactions.json';
 
 export const App = () => {
@@ -33,7 +34,7 @@ export const App = () => {
         <Heading marginTop="50px" marginBottom="50px" textAlign="center">
           Task 3 - Friends list
         </Heading>
-
+          <FriendList list={friends} />
         <Heading marginTop="50px" marginBottom="50px" textAlign="center">
           Task 4 - Transaction history
         </Heading>

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 import { StatisticBox, StatisticLabel, StatisticPercentage } from './StatisticItem.styled';
 
-import { getRandomHexColor } from '../../utils/randomColor'
+import { getRandomHexColor } from '../../utils/randomColor';
 
 export const StatisticItem = ({label, percentage}) => {
   return (
