@@ -7,3 +7,4 @@ export * from 'components/Statistics/Statistics';
 export * from 'components/StatisticItem/StatisticItem';
 export * from 'components/FriendList/FriendList';
 export * from 'components/FriendListItem/FriendListItem';
+export * from 'components/TransactionHistory/TransactionHistory';
